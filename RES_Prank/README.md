@@ -6,7 +6,8 @@ We want to send mail forged. We consider to have those files :
 -a list of files with the name format "message1.txt" that contains the subject and the mail prank we wish to send
 
 Our program then connects to the server specified in the .properties.
-Then we build a prank mail to send at the group of victims. we choose a random victim to be the sender and we send the prank to the others.
+Then we build a prank mail to send at a number of groups of victims. This number is chosen by the user.
+We choose a random victim in each group to be the sender and we send the prank to the others.
 We let the choice to the program user to repeat the operation with 'y' or 'n' console response.
 
 then we disconnect.
